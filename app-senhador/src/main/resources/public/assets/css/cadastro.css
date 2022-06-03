@@ -1,0 +1,46 @@
+body {
+    background-color: #eff0f1;
+}
+* {
+    box-sizing: border-box;
+}
+.navcss{
+    background-color: #C8A386 !important;
+    color: #F5F5F5 !important;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #F5F5F5 !important;
+}
+.navbar-brand{
+    color: #F5F5F5 !important
+}
+.container {
+    color: black;
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: #745f52;
+    margin-top: 20px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #dbd0c3;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #F5F5F5;
+    outline: none;
+}
+.btn-warning{
+    background-color: white !important;
+    border-color: white !important;
+}
+.form-select{
+    background-color: #dbd0c3 !important;
+}

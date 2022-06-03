@@ -1,0 +1,119 @@
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+    text-align: center;
+    margin-top: 15px;
+
+    padding-bottom: 5px;
+    border-bottom: 2px solid #004777;
+}
+
+
+.entity-selection {
+    margin-top: 20px;
+}
+
+.entity-selection > .row {
+    align-items: center;
+}
+
+.entity-selection > .row > .div-selection > select{
+    width: 50%;
+    margin-top: 5px;
+    padding: 5px;
+    
+    font-size: 0.9em;
+}
+
+.entity-selection > .row > .div-span {
+    text-align: right;
+}
+
+section {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+
+section > h4 {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000
+}
+
+section > form {
+    background-color: #dbd0c3;
+    padding: 5px;
+    border-radius: 0.7rem;
+}
+
+section > form > .row  {
+    margin: 12px 0px;
+}
+
+section > form > .row > .attribute > input {
+   display: block;
+   border-radius: 0.5rem;
+   border: 1px solid black;
+   width: 90%;
+
+   padding: 3px;
+   font-size: 0.95em;
+}
+
+section > form > .row > .attribute > #plano {
+    width: 30%;
+}
+
+section > form > .row > .div-btn  {
+    text-align: center;
+}
+
+section > form > .row > .div-btn > button{
+    text-align: center;
+    width: 100%;
+}
+
+section > table {
+    margin: 2px auto;
+    width: 100%;
+
+    background-color: #dbd0c3;
+}
+
+section > table > tbody > tr {
+    border-bottom: 1px solid #745f52;
+}
+
+section > table > tbody > tr:nth-last-child(1) {
+    border-bottom: 0;
+}
+
+section > table > tbody > tr:nth-child(odd) {
+    background-color: #c9dbc3;
+}
+
+section > table > tbody > tr:nth-child(even) {
+    background-color: #c3c7db;
+}
+
+section > table > tbody > tr:nth-child(1) {
+    background-color: #dbd0c3;
+}
+
+section > table > tbody th,
+section > table > tbody td {
+   padding: 7px;
+}
+
+section > table > tbody td > i {
+    cursor: pointer;
+}
+
+section > table > tbody td > .edit-icon {
+    color: #004777;
+}
+
+section > table > tbody td > .remove-icon {
+    color: #e70404;
+}

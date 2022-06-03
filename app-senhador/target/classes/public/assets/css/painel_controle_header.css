@@ -1,0 +1,69 @@
+/*
+1) TRABALHAR RESPONSIVIDADE
+2) ESTADOS DO SELECT
+*/
+
+.header {
+    padding: 20px 5px;
+    margin: 0px;
+    align-items: center;
+}
+
+.header > .div-select-data {
+    align-items: center;
+}
+
+.header > .div-select-data > span {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.header > .div-select-data > select {
+    display: inline;
+    width: 110px; 
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 1rem;
+
+    font-size: 0.9em;
+}
+.header > span {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        top: 15px;
+        left: 50px;
+        margin: 0px;
+        padding: 0px;
+      }
+
+    .header > .input-text {
+        width: 215px;
+        font-size: 0.7em;
+    }
+
+    .header > .btn {
+        font-size: 0.7em;
+        width: 100px;
+    }
+
+    .header > span {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header > .input-text {
+        width: 145px;
+        font-size: 0.5em;
+        padding: 5px;
+    }
+
+    .header > .btn {
+        font-size: 0.5em;
+        width: 65px;
+        padding: 4px;
+    }
+}

@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #C8A386;
+}
+
+.navbar a {
+     display: inline;
+     border: none;
+    color:black;
+}
+  
+body{
+  background-color:#eff0f1 ;
+}
+
+.button{
+  align-items: center;
+  
+  
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #745f52;
+    align-items: center;
+    
+}
+
+.footer p {
+    text-justify: left;
+    color: black;
+}
+
+.footer img {
+    width: 200px;
+    
+}

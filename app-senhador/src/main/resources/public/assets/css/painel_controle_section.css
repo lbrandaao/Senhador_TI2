@@ -1,0 +1,109 @@
+section {
+    margin-top: 30px;
+}
+
+.section > .section-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #745f52;
+    padding-bottom: 7px;
+}
+
+.section > .section-content {
+    background-color: #dbd0c3;
+    padding: 5px;
+    border-radius: 0.3rem;
+}
+
+.section > .section-content > .data-row {
+    background-color: #dbd0c3;
+    align-items: center;
+    padding: 1px;
+    margin: 2px 1px;
+    border: 1px solid #745f52;
+    border-radius: 0.3rem;
+}
+
+.section > .section-content > .data-row > div {
+    border-right: 1px solid #745f52;
+}
+
+.section > .section-content > .data-row > div:nth-last-child(1) {
+    border-right: 0;
+}
+
+.section > .section-content > .data-row > .div-btn {
+    padding: 3px 0px;
+    text-align: right;
+}
+
+.section > .section-content > .data-row > .div-btn > .btn {
+    background-color: #004777;
+    width: 40%;
+    border-radius: 1rem;
+    padding: 2px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.section > .section-content > .data-row > .div-btn > .remove-icon {
+    color: #e70404;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.section > #section-content-cartoes,
+.section > .input-cartao {
+    font-size: 0.9em;
+}
+
+
+.section > .div-btn-newdata {
+    margin-top: 10px;
+    justify-content: right;
+}
+
+.section > .div-btn-newdata > .btn{
+    color: #fff;
+    background-color: #056405;
+    border-radius: 1rem;
+    font-size: 0.9em;
+    padding: 3px;
+}
+
+.section > .div-input-data {
+    margin-top: 15px;
+}
+
+.section > .div-input-data input {
+    width: 100%;
+}
+
+.section > .div-input-data  .div-btn > button {
+    height: 70%;
+    width: 100%;
+    
+    position: relative;
+    top: 30%;
+
+    border-radius: 0.5rem;
+}
+
+.section > .div-generate-password {
+	margin-top: 15px;
+}
+
+.section > .div-generate-password > h3 {
+	font-size: 1.4em;
+	padding-bottom: 5px;
+}
+
+.section > .div-generate-password > #generated-password {
+	margin-right: 5px;
+	border-radius: 0.5rem;
+}
+
+.section > .div-generate-password > #btnGeneratePassword {
+	margin-left: 5px;
+	border-radius: 0.5rem;
+}
